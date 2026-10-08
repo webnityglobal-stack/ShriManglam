@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
 
     <link rel="stylesheet" href="style.css">
@@ -17,404 +19,394 @@
 
 <body>
 
-<!-- NAVBAR -->
+    <!-- NAVBAR -->
 
-<header class="header">
+    <header class="header">
 
-    <nav class="navbar">
-        <div class="logo">
-
-
+        <nav class="navbar">
+            <div class="logo">
 
 
-                    <img src="manglam-logo.jpg" alt="Shri Manglam Buildtech">
+
+
+                <img src="manglam-logo.jpg" alt="Shri Manglam Buildtech">
 
 
             </div>
 
 
-        <ul class="nav-links" id="navLinks">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="properties.html">Properties</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="menu-icon" onclick="toggleMenu()">
-            ☰
-        </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="properties.html">Properties</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                ☰
+            </div>
 
-    </nav>
+        </nav>
 
-</header>
-
-
-<!-- HERO -->
-
-<section class="hero">
-
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-
-        <p class="small-heading">
-            YOUR TRUSTED PROPERTY PARTNER
-        </p>
-
-        <h1>
-            Find A Place<br>
-            <span>You'll Love To Call Home.</span>
-        </h1>
-
-        <p class="hero-text">
-            Discover premium homes, plots and commercial properties
-            at the right price with Shri Manglam Buildtech.
-        </p>
-
-        <div class="hero-buttons">
-
-            <a href="properties.html" class="primary-btn">
-                Explore Properties →
-            </a>
-
-            <button class="secondary-btn" onclick="openEnquiry()">
-                Contact Dealer
-            </button>
-
-        </div>
-
-    </div>
-
-</section>
+    </header>
 
 
-<!-- SEARCH -->
+    <!-- HERO -->
 
-<section class="search-section">
+    <section class="hero">
 
-    <div class="search-container">
+        <div class="hero-overlay"></div>
 
-        <div class="search-title">
+        <div class="hero-content">
 
-            <h2>Find Your Property</h2>
-
-            <p>
-                Search from our latest property listings
+            <p class="small-heading">
+                YOUR TRUSTED PROPERTY PARTNER
             </p>
 
-        </div>
+            <h1>
+                Find A Place<br>
+                <span>You'll Love To Call Home.</span>
+            </h1>
 
+            <p class="hero-text">
+                Discover premium homes, plots and commercial properties
+                at the right price with Shri Manglam Buildtech.
+            </p>
 
-        <div class="search-form">
+            <div class="hero-buttons">
 
-            <div class="input-box">
+                <a href="properties.html" class="primary-btn">
+                    Explore Properties →
+                </a>
 
-                <label>Location</label>
-
-                <input
-                    type="text"
-                    id="location"
-                    placeholder="Enter city or area"
-                >
-
-            </div>
-
-
-            <div class="input-box">
-
-                <label>Property Type</label>
-
-                <select id="propertyType">
-
-                    <option value="">
-                        All Properties
-                    </option>
-
-                    <option value="House">
-                        House
-                    </option>
-
-                    <option value="Flat">
-                        Flat
-                    </option>
-
-                    <option value="Plot">
-                        Plot
-                    </option>
-
-                    <option value="Shop">
-                        Shop
-                    </option>
-
-                </select>
+                <button class="secondary-btn" onclick="openEnquiry()">
+                    Contact Dealer
+                </button>
 
             </div>
-
-
-            <div class="input-box">
-
-                <label>Budget</label>
-
-                <select id="budget">
-
-                    <option value="">
-                        Any Budget
-                    </option>
-
-                    <option value="20">
-                        Under ₹20 Lakh
-                    </option>
-
-                    <option value="30">
-                        Under ₹30 Lakh
-                    </option>
-
-                    <option value="50">
-                        Under ₹50 Lakh
-                    </option>
-
-                    <option value="100">
-                        Under ₹1 Crore
-                    </option>
-
-                </select>
-
-            </div>
-
-
-            <button class="search-btn" onclick="searchProperty()">
-                🔍 Search
-            </button>
 
         </div>
 
-    </div>
-
-</section>
+    </section>
 
 
-<!-- STATS -->
+    <!-- SEARCH -->
 
-<section class="stats">
+    <section class="search-section">
 
-    <div class="stat">
-        <h2>500+</h2>
-        <p>Properties Listed</p>
-    </div>
+        <div class="search-container">
 
-    <div class="stat">
-        <h2>350+</h2>
-        <p>Happy Clients</p>
-    </div>
+            <div class="search-title">
 
-    <div class="stat">
-        <h2>10+</h2>
-        <p>Years Experience</p>
-    </div>
+                <h2>Find Your Property</h2>
 
-    <div class="stat">
-        <h2>100%</h2>
-        <p>Trusted Service</p>
-    </div>
-
-</section>
-
-
-<!-- FEATURED PROPERTIES -->
-
-<section class="section">
-
-    <div class="section-heading">
-
-        <p>OUR PROPERTIES</p>
-
-        <h2>Featured Properties</h2>
-
-        <span>
-            Explore our handpicked properties for your next investment.
-        </span>
-
-    </div>
-
-
-    <div class="property-grid">
-
-
-        <!-- PROPERTY 1 -->
-
-        <div class="property-card">
-
-            <div class="property-image">
-
-                <img
-                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
-                    alt="Luxury House"
-                >
-
-                <span class="property-tag">
-                    FOR SALE
-                </span>
+                <p>
+                    Search from our latest property listings
+                </p>
 
             </div>
 
 
-            <div class="property-content">
+            <div class="search-form">
 
-                <p class="property-type">
-                    HOUSE
-                </p>
+                <div class="input-box">
 
-                <h3>
-                    Luxury Family House
-                </h3>
+                    <label>Location</label>
 
-                <p class="location">
-                    📍 Noida, Uttar Pradesh
-                </p>
-
-
-                <div class="property-details">
-
-                    <span>🛏 4 Beds</span>
-
-                    <span>🚿 3 Baths</span>
-
-                    <span>📐 2200 Sq.Ft.</span>
+                    <input type="text" id="location" placeholder="Enter city or area">
 
                 </div>
 
 
-                <div class="property-bottom">
+                <div class="input-box">
+
+                    <label>Property Type</label>
+
+                    <select id="propertyType">
+
+                        <option value="">
+                            All Properties
+                        </option>
+
+                        <option value="House">
+                            House
+                        </option>
+
+                        <option value="Flat">
+                            Flat
+                        </option>
+
+                        <option value="Plot">
+                            Plot
+                        </option>
+
+                        <option value="Shop">
+                            Shop
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="input-box">
+
+                    <label>Budget</label>
+
+                    <select id="budget">
+
+                        <option value="">
+                            Any Budget
+                        </option>
+
+                        <option value="20">
+                            Under ₹20 Lakh
+                        </option>
+
+                        <option value="30">
+                            Under ₹30 Lakh
+                        </option>
+
+                        <option value="50">
+                            Under ₹50 Lakh
+                        </option>
+
+                        <option value="100">
+                            Under ₹1 Crore
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <button class="search-btn" onclick="searchProperty()">
+                    🔍 Search
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- STATS -->
+
+    <section class="stats">
+
+        <div class="stat">
+            <h2>500+</h2>
+            <p>Properties Listed</p>
+        </div>
+
+        <div class="stat">
+            <h2>350+</h2>
+            <p>Happy Clients</p>
+        </div>
+
+        <div class="stat">
+            <h2>10+</h2>
+            <p>Years Experience</p>
+        </div>
+
+        <div class="stat">
+            <h2>100%</h2>
+            <p>Trusted Service</p>
+        </div>
+
+    </section>
+
+
+    <!-- FEATURED PROPERTIES -->
+
+    <section class="section">
+
+        <div class="section-heading">
+
+            <p>OUR PROPERTIES</p>
+
+            <h2>Featured Properties</h2>
+
+            <span>
+                Explore our handpicked properties for your next investment.
+            </span>
+
+        </div>
+
+
+        <div class="property-grid">
+
+
+            <!-- PROPERTY 1 -->
+
+            <div class="property-card">
+
+                <div class="property-image">
+
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Luxury House">
+
+                    <span class="property-tag">
+                        FOR SALE
+                    </span>
+
+                </div>
+
+
+                <div class="property-content">
+
+                    <p class="property-type">
+                        FLAT
+                    </p>
 
                     <h3>
-                        ₹2.2 cr
+                        Luxury Family Flat
                     </h3>
 
-                    <a href="properties.html">
-                        View Details
-                    </a>
+                    <p class="location">
+                        📍 Greater Noida west, Uttar Pradesh
+                    </p>
+
+
+                    <div class="property-details">
+
+                        <span>🛏 4 Beds</span>
+
+                        <span>🚿 3 Baths</span>
+
+                        <span>📐 2200 Sq.Ft.</span>
+
+                    </div>
+
+
+                    <div class="property-bottom">
+
+                        <h3>
+                            ₹2.2 cr
+                        </h3>
+
+                        <a href="properties.html">
+                            View Details
+                        </a>
+
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
 
+            <!-- PROPERTY 2 -->
 
-        <!-- PROPERTY 2 -->
+            <div class="property-card">
 
-        <div class="property-card">
+                <div class="property-image">
 
-            <div class="property-image">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c" alt="Modern House">
 
-                <img
-                    src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
-                    alt="Modern House"
-                >
-
-                <span class="property-tag">
-                    FOR SALE
-                </span>
-
-            </div>
-
-
-            <div class="property-content">
-
-                <p class="property-type">
-                    HOUSE
-                </p>
-
-                <h3>
-                    Modern Family Home
-                </h3>
-
-                <p class="location">
-                    📍 Sarfabad, Noida
-                </p>
-
-
-                <div class="property-details">
-
-                    <span>🛏 3 Beds</span>
-
-                    <span>🚿 2 Baths</span>
-
-                    <span>📐 1800 Sq.Ft.</span>
+                    <span class="property-tag">
+                        FOR SALE
+                    </span>
 
                 </div>
 
 
-                <div class="property-bottom">
+                <div class="property-content">
+
+                    <p class="property-type">
+                        FLAT
+                    </p>
 
                     <h3>
-                        ₹1.8 cr
+                        Modern Family Flat
                     </h3>
 
-                    <a href="properties.html">
-                        View Details
-                    </a>
+                    <p class="location">
+                        📍 Sector 1,Greater Noida West
+                    </p>
+
+
+                    <div class="property-details">
+
+                        <span>🛏 3 Beds</span>
+
+                        <span>🚿 2 Baths</span>
+
+                        <span>📐 1800 Sq.Ft.</span>
+
+                    </div>
+
+
+                    <div class="property-bottom">
+
+                        <h3>
+                            ₹1.8 cr
+                        </h3>
+
+                        <a href="properties.html">
+                            View Details
+                        </a>
+
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
 
+            <!-- PROPERTY 3 -->
 
-        <!-- PROPERTY 3 -->
+            <div class="property-card">
 
-        <div class="property-card">
+                <div class="property-image">
 
-            <div class="property-image">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d" alt="Luxury Villa">
 
-                <img
-                    src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d"
-                    alt="Luxury Villa"
-                >
-
-                <span class="property-tag">
-                    FOR SALE
-                </span>
-
-            </div>
-
-
-            <div class="property-content">
-
-                <p class="property-type">
-                    VILLA
-                </p>
-
-                <h3>
-                    Premium Luxury Villa
-                </h3>
-
-                <p class="location">
-                    📍 Gaur city, Greater Noida
-                </p>
-
-
-                <div class="property-details">
-
-                    <span>🛏 5 Beds</span>
-
-                    <span>🚿 4 Baths</span>
-
-                    <span>📐 2800 Sq.Ft.</span>
+                    <span class="property-tag">
+                        FOR SALE
+                    </span>
 
                 </div>
 
 
-                <div class="property-bottom">
+                <div class="property-content">
+
+                    <p class="property-type">
+                        FLAT
+                    </p>
 
                     <h3>
-                        ₹2.8 cr
+                        Premium Luxury Flat
                     </h3>
 
-                    <a href="properties.html">
-                        View Details
-                    </a>
+                    <p class="location">
+                        📍 Gaur city, Greater Noida
+                    </p>
+
+
+                    <div class="property-details">
+
+                        <span>🛏 5 Beds</span>
+
+                        <span>🚿 4 Baths</span>
+
+                        <span>📐 2800 Sq.Ft.</span>
+
+                    </div>
+
+
+                    <div class="property-bottom">
+
+                        <h3>
+                            ₹2.8 cr
+                        </h3>
+
+                        <a href="properties.html">
+                            View Details
+                        </a>
+
+                    </div>
 
                 </div>
 
@@ -422,397 +414,367 @@
 
         </div>
 
-    </div>
+
+        <div class="center-btn">
+
+            <a href="properties.html" class="primary-btn">
+                View All Properties →
+            </a>
+
+        </div>
+
+    </section>
 
 
-    <div class="center-btn">
+    <!-- CTA -->
 
-        <a href="properties.html" class="primary-btn">
-            View All Properties →
-        </a>
+    <section class="cta">
 
-    </div>
+        <div>
 
-</section>
+            <p>
+                LOOKING FOR YOUR DREAM PROPERTY?
+            </p>
 
+            <h2>
+                Let's Find It Together.
+            </h2>
 
-<!-- CTA -->
+            <span>
+                Tell us what you're looking for and we'll help you find it.
+            </span>
 
-<section class="cta">
-
-    <div>
-
-        <p>
-            LOOKING FOR YOUR DREAM PROPERTY?
-        </p>
-
-        <h2>
-            Let's Find It Together.
-        </h2>
-
-        <span>
-            Tell us what you're looking for and we'll help you find it.
-        </span>
-
-    </div>
+        </div>
 
 
-    <button onclick="openEnquiry()">
-        Get Free Consultation →
-    </button>
+        <button onclick="openEnquiry()">
+            Get Free Consultation →
+        </button>
 
-</section>
-<!-- =====================================================
+    </section>
+    <!-- =====================================================
      FAQ SECTION
 ===================================================== -->
 
-<section class="faq-section" id="FAQs">
+    <section class="faq-section" id="FAQs">
 
-    <div class="faq-container">
+        <div class="faq-container">
 
-        <div class="faq-heading">
-            <span>FREQUENTLY ASKED QUESTIONS</span>
-            <h2>Frequently Asked Questions</h2>
-            <p>
-                Find answers to common questions about Shri manglam Buildtech ,
-                residences, amenities and location.
-            </p>
+            <div class="faq-heading">
+                <span>FREQUENTLY ASKED QUESTIONS</span>
+                <h2>Frequently Asked Questions</h2>
+                <p>
+                    Find answers to common questions about Shri manglam Buildtech ,
+                    residences, amenities and location.
+                </p>
+            </div>
+
+
+            <div class="faq-list">
+
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+
+                    <button class="faq-question" type="button">
+                        <span>What floor plan options are available?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            At Shri Manglam Buildtech in Sector 1, Greater Noida West,
+                            buyers can choose from a diverse range of premium
+                            floor plan options tailored for luxury living.
+                            This residential project offers thoughtfully
+                            designed 2 BHK, 3 BHK, and expansive 4 BHK duplex
+                            layouts.
+                        </p>
+
+                        <p>
+                            Sizes start from an efficient 1,050 sq. ft. for
+                            2 BHK homes and scale up to 1,825 sq. ft. for
+                            spacious 3 BHK configurations. For ultimate
+                            grandeur, exclusive duplex apartments provide
+                            layouts ranging from 3,625 to 4,025 sq. ft.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 2 -->
+                <div class="faq-item">
+
+                    <button class="faq-question" type="button">
+                        <span>
+                            Is Shri Manglam Buildtech close to reliable schools,
+                            hospitals and entertainment hubs?
+                        </span>
+
+                        <span class="faq-icon">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Yes. Situated in Sector 1, Greater Noida West,
+                            the project enjoys prime connectivity to
+                            important schools, hospitals, commercial areas
+                            and entertainment destinations.
+                        </p>
+
+                        <ul>
+                            <li>8 minutes from Yatharth Hospital</li>
+                            <li>10 minutes from Gaur City Mall</li>
+                            <li>5 minutes from Central Noida</li>
+                            <li>
+                                25 minutes from the Sector 62 Commercial Area
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 3 -->
+                <div class="faq-item">
+
+                    <button class="faq-question" type="button">
+
+                        <span>
+                            What premium sports &amp; wellness amenities
+                            are provided?
+                        </span>
+
+                        <span class="faq-icon">+</span>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Residents have direct access to a world-class
+                            clubhouse featuring indoor gaming facilities
+                            including pool, table tennis, carrom and chess.
+                        </p>
+
+                        <p>
+                            The project also offers a fully equipped
+                            masterclass gymnasium, a large adult swimming
+                            pool, a dedicated children's pool and beautifully
+                            landscaped green parks.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
-
-        <div class="faq-list">
-
-            <!-- FAQ 1 -->
-            <div class="faq-item">
-
-                <button class="faq-question" type="button">
-                    <span>What floor plan options are available?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        At Shri Manglam Buildtech in Sector 1, Greater Noida West,
-                        buyers can choose from a diverse range of premium
-                        floor plan options tailored for luxury living.
-                        This residential project offers thoughtfully
-                        designed 2 BHK, 3 BHK, and expansive 4 BHK duplex
-                        layouts.
-                    </p>
-
-                    <p>
-                        Sizes start from an efficient 1,050 sq. ft. for
-                        2 BHK homes and scale up to 1,825 sq. ft. for
-                        spacious 3 BHK configurations. For ultimate
-                        grandeur, exclusive duplex apartments provide
-                        layouts ranging from 3,625 to 4,025 sq. ft.
-                    </p>
-
-                </div>
-
-            </div>
+    </section>
 
 
-            <!-- FAQ 2 -->
-            <div class="faq-item">
-
-                <button class="faq-question" type="button">
-                    <span>
-                        Is Shri Manglam Buildtech close to reliable schools,
-                        hospitals and entertainment hubs?
-                    </span>
-
-                    <span class="faq-icon">+</span>
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Yes. Situated in Sector 1, Greater Noida West,
-                        the project enjoys prime connectivity to
-                        important schools, hospitals, commercial areas
-                        and entertainment destinations.
-                    </p>
-
-                    <ul>
-                        <li>8 minutes from Yatharth Hospital</li>
-                        <li>10 minutes from Gaur City Mall</li>
-                        <li>5 minutes from Central Noida</li>
-                        <li>
-                            25 minutes from the Sector 62 Commercial Area
-                        </li>
-                    </ul>
-
-                </div>
-
-            </div>
-
-
-            <!-- FAQ 3 -->
-            <div class="faq-item">
-
-                <button class="faq-question" type="button">
-
-                    <span>
-                        What premium sports &amp; wellness amenities
-                        are provided?
-                    </span>
-
-                    <span class="faq-icon">+</span>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Residents have direct access to a world-class
-                        clubhouse featuring indoor gaming facilities
-                        including pool, table tennis, carrom and chess.
-                    </p>
-
-                    <p>
-                        The project also offers a fully equipped
-                        masterclass gymnasium, a large adult swimming
-                        pool, a dedicated children's pool and beautifully
-                        landscaped green parks.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
+    <!-- =====================================================
      GET IN TOUCH / CONTACT SECTION
 ===================================================== -->
 
-<section class="get-in-touch" id="Contact">
+    <section class="get-in-touch" id="Contact">
 
-    <div class="contact-container">
+        <div class="contact-container">
 
-        <!-- LEFT CONTENT -->
+            <!-- LEFT CONTENT -->
 
-        <div class="contact-content">
+            <div class="contact-content">
 
-            <span class="contact-label">
-                GET IN TOUCH
-            </span>
+                <span class="contact-label">
+                    GET IN TOUCH
+                </span>
 
-            <h2>
-                Request the Master Plan
-                <br>
-                &amp; Current Price List
-            </h2>
+                <h2>
+                    Request the Master Plan
+                    <br>
+                    &amp; Current Price List
+                </h2>
 
-            <p>
-                Speak with our advisory team about carpet areas,
-                duplex pricing, and available inventory at Shri Manglam Buildtech,
-                Sector 1, Greater Noida West.
-            </p>
+                <p>
+                    Speak with our advisory team about carpet areas,
+                    duplex pricing, and available inventory at Shri Manglam Buildtech,
+                    Sector 1, Greater Noida West.
+                </p>
 
-            <div class="rera-box">
+                <div class="rera-box">
 
-                <strong>RERA No.</strong>
+                    <strong>RERA No.</strong>
 
-                <span>UPRERAPRJ887878</span>
+                    <span>UPRERAPRJ887878</span>
 
-                <span class="rera-divider">·</span>
+                    <span class="rera-divider">·</span>
 
-                <span>
-                    Details on rera.up.gov.in
+                    <span>
+                        Details on rera.up.gov.in
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT FORM -->
+
+            <div class="contact-form-box">
+
+                <h3>Contact Form</h3>
+
+                <form id="propertyContactForm">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Your Number
+                        </label>
+
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your number" required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Your Email
+                        </label>
+
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    </div>
+
+
+                    <div class="captcha-box">
+
+                        <span>5 + 4 =</span>
+
+                        <input type="number" id="captcha" placeholder="Answer" required>
+
+                    </div>
+
+
+                    <button type="submit" class="contact-submit">
+                        Request Details
+                        <span>→</span>
+                    </button>
+
+
+                    <p class="form-disclaimer">
+
+                        By submitting, you agree to be contacted by
+                        Shri Manglam Buildtech sales team regarding this residential
+                        project.
+
+                    </p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     FOOTER
+===================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <!-- BRAND -->
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="footer-logo">
+
+                    <img src="manglam-logo.jpg" alt="Shri Manglam Buildtech">
+
+                </a>
+
+                <p>
+                    Shri Manglam Buildtech| A landmark residential project by
+                    Shri Mangalm Buildtech,Roshan Lal Plaza,Shop No 5 Behind 1st Cry, Sector 2, Greater Noida West Up
+                    201306.
+                </p>
+
+                <span class="footer-rera">
+                    RERA Registered
                 </span>
 
             </div>
 
-        </div>
 
+            <!-- EXPLORE -->
 
-        <!-- RIGHT FORM -->
+            <div class="footer-column">
 
-        <div class="contact-form-box">
+                <h3>EXPLORE</h3>
 
-            <h3>Contact Form</h3>
+                <a href="#Overview">Overview</a>
 
-            <form id="propertyContactForm">
+                <a href="#Residences">Residences</a>
 
-                <div class="form-group">
+                <a href="#Amenities">Amenities</a>
 
-                    <label for="name">
-                        Your Name
-                    </label>
+                <a href="#Location">Location</a>
 
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Enter your name"
-                        required
-                    >
+            </div>
 
-                </div>
 
+            <!-- PROJECT -->
 
-                <div class="form-group">
+            <div class="footer-column">
 
-                    <label for="phone">
-                        Your Number
-                    </label>
+                <h3>THE PROJECT</h3>
 
-                    <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        placeholder="Enter your number"
-                        required
-                    >
+                <a href="#About">About Shri Manglam Buildtech</a>
 
-                </div>
+                <a href="#FAQs">FAQs</a>
 
+                <a href="#MasterPlan">Master Plan</a>
 
-                <div class="form-group">
+            </div>
 
-                    <label for="email">
-                        Your Email
-                    </label>
 
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Enter your email"
-                        required
-                    >
+            <!-- VISIT US -->
 
-                </div>
+            <div class="footer-column footer-contact">
 
+                <h3>VISIT US</h3>
 
-                <div class="captcha-box">
+                <a href="#Location">
+                    Roshan Lal plaza,Shop No 5 Behind 1st Cry, Sector 2
+                </a>
 
-                    <span>5 + 4 =</span>
+                <a href="#Location">
+                    Greater Noida West, UP
+                </a>
 
-                    <input
-                        type="number"
-                        id="captcha"
-                        placeholder="Answer"
-                        required
-                    >
-
-                </div>
-
-
-                <button
-                    type="submit"
-                    class="contact-submit"
-                >
-                    Request Details
-                    <span>→</span>
-                </button>
-
-
-                <p class="form-disclaimer">
-
-                    By submitting, you agree to be contacted by
-                    Shri Manglam Buildtech sales team regarding this residential
-                    project.
-
-                </p>
-
-            </form>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
-
-<footer class="site-footer">
-
-    <div class="footer-container">
-
-        <!-- BRAND -->
-
-        <div class="footer-brand">
-
-            <a href="index.html" class="footer-logo">
-
-                <img
-                    src="manglam-logo.jpg"
-                    alt="Shri Manglam Buildtech"
-                >
-
-            </a>
-
-            <p>
-                Shri Manglam Buildtech| A landmark residential project by
-                Shri Mangalm Buildtech,Roshan Lal Plaza,Shop No 5 Behind 1st Cry, Sector 2, Greater Noida West Up 201306.
-            </p>
-
-            <span class="footer-rera">
-                RERA Registered
-            </span>
-
-        </div>
-
-
-        <!-- EXPLORE -->
-
-        <div class="footer-column">
-
-            <h3>EXPLORE</h3>
-
-            <a href="#Overview">Overview</a>
-
-            <a href="#Residences">Residences</a>
-
-            <a href="#Amenities">Amenities</a>
-
-            <a href="#Location">Location</a>
-
-        </div>
-
-
-        <!-- PROJECT -->
-
-        <div class="footer-column">
-
-            <h3>THE PROJECT</h3>
-
-            <a href="#About">About Shri Manglam Buildtech</a>
-
-            <a href="#FAQs">FAQs</a>
-
-            <a href="#MasterPlan">Master Plan</a>
-
-        </div>
-
-
-        <!-- VISIT US -->
-
-        <div class="footer-column footer-contact">
-
-            <h3>VISIT US</h3>
-
-            <a href="#Location">
-                Roshan Lal plaza,Shop No 5 Behind 1st Cry, Sector 2
-            </a>
-
-            <a href="#Location">
-                Greater Noida West, UP
-            </a>
-
-              <a href="tel:+919910058152">
+                <a href="tel:+919910058152">
                     📞 +91 99100 58152
                 </a>
 
@@ -820,251 +782,236 @@
                     📞 +91 63862 93245
                 </a>
 
-            <a href="https://www.shrimanglambuildtech.com" target="_blank">
-                manglambuildtec@gmail.com
-            </a>
+                <a href="https://www.shrimanglambuildtech.com" target="_blank">
+                    manglambuildtec@gmail.com
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Shri Manglam Buildtech. All rights reserved.
+            </p>
+
+            <span>
+                RERA Registered
+            </span>
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+     WHATSAPP BUTTON
+===================================================== -->
+
+    <a href="https://api.whatsapp.com/send?phone=919910058152" class="whatsapp-button" target="_blank"
+        aria-label="Chat on WhatsApp">
+        WhatsApp
+    </a>
+
+
+    <!-- SCROLL TO TOP -->
+
+    <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+        ↑
+    </button>
+
+
+    <script>
+
+        /* FAQ */
+
+        const faqQuestions =
+            document.querySelectorAll(".faq-question");
+
+        faqQuestions.forEach(function (question) {
+
+            question.addEventListener("click", function () {
+
+                const currentItem =
+                    question.parentElement;
+
+                const answer =
+                    currentItem.querySelector(".faq-answer");
+
+                const icon =
+                    question.querySelector(".faq-icon");
+
+
+                document
+                    .querySelectorAll(".faq-item")
+                    .forEach(function (item) {
+
+                        if (item !== currentItem) {
+
+                            item.classList.remove("active");
+
+                            item
+                                .querySelector(".faq-answer")
+                                .style.maxHeight = null;
+
+                            item
+                                .querySelector(".faq-icon")
+                                .textContent = "+";
+                        }
+
+                    });
+
+
+                currentItem.classList.toggle("active");
+
+
+                if (currentItem.classList.contains("active")) {
+
+                    answer.style.maxHeight =
+                        answer.scrollHeight + "px";
+
+                    icon.textContent = "−";
+
+                } else {
+
+                    answer.style.maxHeight = null;
+
+                    icon.textContent = "+";
+
+                }
+
+            });
+
+        });
+
+
+        /* CONTACT FORM */
+
+        document
+            .getElementById("propertyContactForm")
+            .addEventListener("submit", function (event) {
+
+                event.preventDefault();
+
+                const captcha =
+                    document.getElementById("captcha").value;
+
+                if (captcha !== "9") {
+
+                    alert("Please enter the correct answer.");
+
+                    return;
+
+                }
+
+                alert(
+                    "Thank you! Our advisory team will contact you shortly."
+                );
+
+                this.reset();
+
+            });
+
+
+        /* SCROLL TO TOP */
+
+        const scrollTopBtn =
+            document.getElementById("scrollTopBtn");
+
+
+        window.addEventListener("scroll", function () {
+
+            if (window.scrollY > 400) {
+
+                scrollTopBtn.classList.add("show");
+
+            } else {
+
+                scrollTopBtn.classList.remove("show");
+
+            }
+
+        });
+
+
+        scrollTopBtn.addEventListener("click", function () {
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        });
+
+    </script>
+
+
+    <!-- FOOTER -->
+
+
+
+    <!-- ENQUIRY MODAL -->
+
+    <div class="modal" id="enquiryModal">
+
+        <div class="modal-content">
+
+            <button class="close-btn" onclick="closeEnquiry()">
+                ×
+            </button>
+
+            <h2>
+                Property Enquiry
+            </h2>
+
+            <p>
+                Enter your details and our dealer will contact you.
+            </p>
+
+
+            <form onsubmit="submitEnquiry(event)">
+
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="tel" placeholder="Phone Number" required>
+
+                <select required>
+
+                    <option value="">
+                        Select Requirement
+                    </option>
+
+                    <option>
+                        Buy Property
+                    </option>
+
+                    <option>
+                        Sell Property
+                    </option>
+
+                    <option>
+                        Rent Property
+                    </option>
+
+                </select>
+
+
+                <button type="submit">
+                    Submit Enquiry
+                </button>
+
+            </form>
 
         </div>
 
     </div>
 
 
-    <!-- FOOTER BOTTOM -->
-
-    <div class="footer-bottom">
-
-        <p>
-            © 2026 Shri Manglam Buildtech. All rights reserved.
-        </p>
-
-        <span>
-            RERA Registered
-        </span>
-    </div>
-
-</footer>
-
-
-<!-- =====================================================
-     WHATSAPP BUTTON
-===================================================== -->
-
-<a
-    href="https://api.whatsapp.com/send?phone=919910058152"
-    class="whatsapp-button"
-    target="_blank"
-    aria-label="Chat on WhatsApp"
->
-    WhatsApp
-</a>
-
-
-<!-- SCROLL TO TOP -->
-
-<button
-    class="scroll-top"
-    id="scrollTopBtn"
-    aria-label="Scroll to top"
->
-    ↑
-</button>
-
-
-<script>
-
-    /* FAQ */
-
-    const faqQuestions =
-        document.querySelectorAll(".faq-question");
-
-    faqQuestions.forEach(function (question) {
-
-        question.addEventListener("click", function () {
-
-            const currentItem =
-                question.parentElement;
-
-            const answer =
-                currentItem.querySelector(".faq-answer");
-
-            const icon =
-                question.querySelector(".faq-icon");
-
-
-            document
-                .querySelectorAll(".faq-item")
-                .forEach(function (item) {
-
-                    if (item !== currentItem) {
-
-                        item.classList.remove("active");
-
-                        item
-                            .querySelector(".faq-answer")
-                            .style.maxHeight = null;
-
-                        item
-                            .querySelector(".faq-icon")
-                            .textContent = "+";
-                    }
-
-                });
-
-
-            currentItem.classList.toggle("active");
-
-
-            if (currentItem.classList.contains("active")) {
-
-                answer.style.maxHeight =
-                    answer.scrollHeight + "px";
-
-                icon.textContent = "−";
-
-            } else {
-
-                answer.style.maxHeight = null;
-
-                icon.textContent = "+";
-
-            }
-
-        });
-
-    });
-
-
-    /* CONTACT FORM */
-
-    document
-        .getElementById("propertyContactForm")
-        .addEventListener("submit", function (event) {
-
-            event.preventDefault();
-
-            const captcha =
-                document.getElementById("captcha").value;
-
-            if (captcha !== "9") {
-
-                alert("Please enter the correct answer.");
-
-                return;
-
-            }
-
-            alert(
-                "Thank you! Our advisory team will contact you shortly."
-            );
-
-            this.reset();
-
-        });
-
-
-    /* SCROLL TO TOP */
-
-    const scrollTopBtn =
-        document.getElementById("scrollTopBtn");
-
-
-    window.addEventListener("scroll", function () {
-
-        if (window.scrollY > 400) {
-
-            scrollTopBtn.classList.add("show");
-
-        } else {
-
-            scrollTopBtn.classList.remove("show");
-
-        }
-
-    });
-
-
-    scrollTopBtn.addEventListener("click", function () {
-
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-
-    });
-
-</script>
-
-
-<!-- FOOTER -->
-
-
-
-<!-- ENQUIRY MODAL -->
-
-<div class="modal" id="enquiryModal">
-
-    <div class="modal-content">
-
-        <button class="close-btn" onclick="closeEnquiry()">
-            ×
-        </button>
-
-        <h2>
-            Property Enquiry
-        </h2>
-
-        <p>
-            Enter your details and our dealer will contact you.
-        </p>
-
-
-        <form onsubmit="submitEnquiry(event)">
-
-            <input
-                type="text"
-                placeholder="Your Name"
-                required
-            >
-
-            <input
-                type="tel"
-                placeholder="Phone Number"
-                required
-            >
-
-            <select required>
-
-                <option value="">
-                    Select Requirement
-                </option>
-
-                <option>
-                    Buy Property
-                </option>
-
-                <option>
-                    Sell Property
-                </option>
-
-                <option>
-                    Rent Property
-                </option>
-
-            </select>
-
-
-            <button type="submit">
-                Submit Enquiry
-            </button>
-
-        </form>
-
-    </div>
-
-</div>
-
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
